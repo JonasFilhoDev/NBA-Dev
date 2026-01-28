@@ -23,6 +23,8 @@ Fundo de Vídeo: Experiência imersiva com um vídeo de fundo em loop.
 <img src="https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E">
 <p>*Manipulação do DOM para abertura/fechamento de cards e lógica de busca de dados em objetos.</p>
 
+https://jonasfilhodev.github.io/NBA-Dev/
+
 <h2>🎨 Preview do Layout</h2>
 O projeto conta com uma grade de escudos organizada e um card centralizado que se destaca sobre o conteúdo principal.
 <br>
