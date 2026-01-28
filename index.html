@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>NBA Dev Page</title>
+</head>
+
+<body>
+    <main class="container">
+        <img src="./assets/nba-logo.png" alt="logo-nba" id="logo-nba">
+        <div id="container-west">
+            <h2>WEST</h2>
+            <section class="conf-west">
+                <button type="button"><img src="./assets/west/clippers.png" alt="logo-clippers"></button>
+                <button type="button"><img src="./assets/west/grizzlies.png" alt="logo-grizzlies"></button>
+                <button type="button"><img src="./assets/west/gsw.png" alt="logo-warriors"></button>
+                <button type="button"><img src="./assets/west/jazz.png" alt="logo-jazz"></button>
+                <button type="button"><img src="./assets/west/kings.png" alt="logo-kings"></button>
+                <button type="button"><img src="./assets/west/lakers.png" alt="logo-lakers"></button>
+                <button type="button"><img src="./assets/west/mavs.png" alt="logo-mavericks"></button>
+                <button type="button"><img src="./assets/west/nola.png" alt="logo-new orleans"></button>
+                <button type="button"><img src="./assets/west/nuggets.png" alt="logo-nuggets"></button>
+                <button type="button"><img src="./assets/west/okc.png" alt="logo-okc"></button>
+                <button type="button"><img src="./assets/west/portland.png" alt="logo-portland"></button>
+                <button type="button"><img src="./assets/west/rockets.png" alt="logo-rockets"></button>
+                <button type="button"><img src="./assets/west/spurs.png" alt="logo-spurs"></button>
+                <button type="button"><img src="./assets/west/suns.png" alt="logo-suns"></button>
+                <button type="button"><img src="./assets/west/timberwolves.png" alt="logo-timberwolves"></button>
+            </section>
+        </div>
+
+        <div id="container-east">
+            <h2>EAST</h2>
+            <section class="conf-east">
+                <button type="button"><img src="./assets/east/76ers.png" alt="logo-76ers"></button>
+                <button type="button"><img src="./assets/east/atlanta-hawks.png" alt="logo-hawks"></button>
+                <button type="button"><img src="./assets/east/nets.png" alt="logo-nets"></button>
+                <button type="button"><img src="./assets/east/bucks.png" alt="logo-bucks"></button>
+                <button type="button"><img src="./assets/east/bulls.png" alt="logo-bulls"></button>
+                <button type="button"><img src="./assets/east/cavs.png" alt="logo-cavs"></button>
+                <button type="button"><img src="./assets/east/celtics.png" alt="logo-celtics"></button>
+                <button type="button"><img src="./assets/east/hornets.png" alt="logo-hornets"></button>
+                <button type="button"><img src="./assets/east/magic.png" alt="logo-magic"></button>
+                <button type="button"><img src="./assets/east/Miami_Heat.png" alt="logo-heat"></button>
+                <button type="button"><img src="./assets/east/ny.png" alt="logo-knicks"></button>
+                <button type="button"><img src="./assets/east/pacers.png" alt="logo-pacers"></button>
+                <button type="button"><img src="./assets/east/pistons.png" alt="logo-pistons"></button>
+                <button type="button"><img src="./assets/east/raptors.png" alt="logo-raptors"></button>
+                <button type="button"><img src="./assets/east/wizards.png" alt="logo-wizards"></button>
+            </section>
+        </div>
+    </main>
+    <div class="video-fundo">
+        <video src="./assets/54598-477482868_medium.mp4" autoplay muted loop></video>
+    </div>
+
+    <div id="card-time" class="hidden">
+        <div class="card-content">
+            <span id="close-card">&times;</span>
+            <img src="" id="logo-card" style="width: 100px;">
+            <h2 id="nome-card"></h2>
+            <h3>Informações Gerais:</h3>
+            <p id="info-cidade"></p>
+            <p id="info-titulos"></p>
+            <p id="info-rival"></p>
+            <h3>Principais Jogadores:</h3>
+            <ul id="lista-jogadores" style="list-style: none; padding: 0;"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+<footer>&copy; 2026 - Jonas Filho Dev&REG;</footer>
+
+</html>

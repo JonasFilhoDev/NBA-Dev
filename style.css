@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    gap: 80px;
+    padding: 80px 20px;
+    position: relative;
+    z-index: 1;
+}
+
+#logo-nba {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 120px;
+    height: auto;
+    z-index: 2;
+}
+
+.conf-west img,
+.conf-east img {
+    width: 100px;
+    height: auto;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.conf-west,
+.conf-east {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    max-width: 350px;
+    margin: 20px auto;
+}
+
+.video-fundo {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    color: #ffffff;
+}
+
+button img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+#card-time {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.card-content {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 35px;
+    position: relative;
+    color: #333;
+    min-width: 300px;
+}
+
+#close-card {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding: 40px 10px;
+    }
+
+    .conf-west,
+    .conf-east {
+        max-width: 100%;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+        
+    }
+}
