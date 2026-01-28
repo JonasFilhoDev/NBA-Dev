@@ -78,7 +78,7 @@ button img:hover {
 }
 
 footer {
-    position: fixed;
+    position: relative;
     bottom: 10px;
     width: 100%;
     text-align: center;
